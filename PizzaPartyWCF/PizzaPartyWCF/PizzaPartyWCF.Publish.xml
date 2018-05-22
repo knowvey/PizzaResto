@@ -1,0 +1,65 @@
+<publishData>
+  <publishTarget publishUrl="E:\www\PizzaWCF\">
+    <file relUrl="Models/KitchenModel.cs" publishTime="09/07/2017 10:54:49" />
+    <file relUrl="Models/Model1.edmx.diagram" publishTime="09/07/2017 10:40:39" />
+    <file relUrl="PizzaPartyWCF.PizzaResto.svc" publishTime="09/09/2017 20:28:29" />
+    <file relUrl="bin/PizzaPartyWCF.pdb" publishTime="09/09/2017 19:54:35" />
+    <file relUrl="bin/EntityFramework.xml" publishTime="09/07/2017 10:40:26" />
+    <file relUrl="Properties/AssemblyInfo.cs" publishTime="09/07/2017 10:36:18" />
+    <file relUrl="Models/OrderListModel.cs" publishTime="09/07/2017 10:41:25" />
+    <file relUrl="Models/Model1.Designer.cs" publishTime="09/07/2017 10:40:39" />
+    <file relUrl="bin/PizzaPartyWCF.dll" publishTime="09/09/2017 19:54:36" />
+    <file relUrl="PizzaResto.cs" publishTime="09/07/2017 10:55:18" />
+    <file relUrl="Models/Model1.Context.cs" publishTime="09/07/2017 10:40:37" />
+    <file relUrl="PizzaPartyWCF.csproj.user" publishTime="09/09/2017 19:54:34" />
+    <file relUrl="PizzaPartyWCF.csproj" publishTime="09/07/2017 10:41:46" />
+    <file relUrl="IPizzaResto.cs" publishTime="09/07/2017 10:56:51" />
+    <file relUrl="packages.config" publishTime="09/07/2017 10:40:33" />
+    <file relUrl="Models/cashier.cs" publishTime="09/07/2017 10:40:37" />
+    <file relUrl="Models/Model1.cs" publishTime="09/07/2017 10:40:38" />
+    <file relUrl="Models/kitchen.cs" publishTime="09/07/2017 10:40:37" />
+    <file relUrl="Models/Model1.tt" publishTime="09/07/2017 10:40:34" />
+    <file relUrl="Models/itemlist.cs" publishTime="09/07/2017 10:40:37" />
+    <file relUrl="Models/Model1.edmx" publishTime="09/07/2017 10:40:39" />
+    <file relUrl="Models/ItemListModel.cs" publishTime="09/07/2017 10:41:21" />
+    <file relUrl="Models/orderlist.cs" publishTime="09/07/2017 10:40:37" />
+    <file relUrl="App.config" publishTime="09/07/2017 10:40:34" />
+    <file relUrl="Models/Model1.Context.tt" publishTime="09/07/2017 10:40:26" />
+    <file relUrl="bin/PizzaPartyWCF.dll.config" publishTime="09/07/2017 10:40:34" />
+    <file relUrl="bin/EntityFramework.dll" publishTime="09/07/2017 10:40:26" />
+    <file relUrl="Models/CashierModel.cs" publishTime="09/07/2017 10:41:17" />
+    <file relUrl="Web.config" publishTime="09/07/2017 10:40:34" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\inetpub\wwwroot\" />
+  <publishTarget publishUrl="E:\www\PizzaRestoWCF\">
+    <file relUrl="Models/KitchenModel.cs" publishTime="09/07/2017 10:54:49" />
+    <file relUrl="Models/Model1.edmx.diagram" publishTime="09/07/2017 10:40:39" />
+    <file relUrl="PizzaPartyWCF.PizzaResto.svc" publishTime="09/09/2017 19:29:18" />
+    <file relUrl="bin/PizzaPartyWCF.pdb" publishTime="09/09/2017 19:29:02" />
+    <file relUrl="bin/EntityFramework.xml" publishTime="09/07/2017 10:40:26" />
+    <file relUrl="Properties/AssemblyInfo.cs" publishTime="09/07/2017 10:36:18" />
+    <file relUrl="Models/OrderListModel.cs" publishTime="09/07/2017 10:41:25" />
+    <file relUrl="Models/Model1.Designer.cs" publishTime="09/07/2017 10:40:39" />
+    <file relUrl="bin/PizzaPartyWCF.dll" publishTime="09/09/2017 19:29:02" />
+    <file relUrl="PizzaResto.cs" publishTime="09/07/2017 10:55:18" />
+    <file relUrl="Models/Model1.Context.cs" publishTime="09/07/2017 10:40:37" />
+    <file relUrl="PizzaPartyWCF.csproj.user" publishTime="09/09/2017 19:28:51" />
+    <file relUrl="PizzaPartyWCF.csproj" publishTime="09/07/2017 10:41:46" />
+    <file relUrl="IPizzaResto.cs" publishTime="09/07/2017 10:56:51" />
+    <file relUrl="packages.config" publishTime="09/07/2017 10:40:33" />
+    <file relUrl="Models/cashier.cs" publishTime="09/07/2017 10:40:37" />
+    <file relUrl="Models/Model1.cs" publishTime="09/07/2017 10:40:38" />
+    <file relUrl="Models/kitchen.cs" publishTime="09/07/2017 10:40:37" />
+    <file relUrl="Models/Model1.tt" publishTime="09/07/2017 10:40:34" />
+    <file relUrl="Models/itemlist.cs" publishTime="09/07/2017 10:40:37" />
+    <file relUrl="Models/Model1.edmx" publishTime="09/07/2017 10:40:39" />
+    <file relUrl="Models/ItemListModel.cs" publishTime="09/07/2017 10:41:21" />
+    <file relUrl="Models/orderlist.cs" publishTime="09/07/2017 10:40:37" />
+    <file relUrl="App.config" publishTime="09/07/2017 10:40:34" />
+    <file relUrl="Models/Model1.Context.tt" publishTime="09/07/2017 10:40:26" />
+    <file relUrl="bin/PizzaPartyWCF.dll.config" publishTime="09/07/2017 10:40:34" />
+    <file relUrl="bin/EntityFramework.dll" publishTime="09/07/2017 10:40:26" />
+    <file relUrl="Models/CashierModel.cs" publishTime="09/07/2017 10:41:17" />
+    <file relUrl="Web.config" publishTime="09/07/2017 10:40:34" />
+  </publishTarget>
+</publishData>

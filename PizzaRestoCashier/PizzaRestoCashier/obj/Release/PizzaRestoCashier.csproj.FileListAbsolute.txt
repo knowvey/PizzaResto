@@ -1,0 +1,5 @@
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaRestoCashier\PizzaRestoCashier\bin\PizzaRestoCashier.dll
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaRestoCashier\PizzaRestoCashier\bin\PizzaRestoCashier.pdb
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaRestoCashier\PizzaRestoCashier\obj\Release\PizzaRestoCashier.dll
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaRestoCashier\PizzaRestoCashier\obj\Release\PizzaRestoCashier.pdb
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaRestoCashier\PizzaRestoCashier\obj\Release\PizzaRestoCashier.csprojResolveAssemblyReference.cache

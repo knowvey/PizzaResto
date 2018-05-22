@@ -1,0 +1,48 @@
+﻿body {
+}
+
+.container {
+    border: 2px solid black;
+    padding: 0;
+}
+
+h1 {
+    margin: 15px 0;
+}
+
+.header {
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.orderListContainer {   
+    width: 100%; 
+    height: 520px;    
+}
+
+.orderListContent {
+    height: 517px;    
+}
+
+.orderCont {        
+    width: 100%;           
+}
+
+.orderPnl {
+    height: 260px;    
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 0 !important;
+}
+
+.orderListPnl {
+    height: 215px;
+    overflow: auto; 
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.btnPnl {    
+    margin-top: 5px;
+    width: 80px;
+}

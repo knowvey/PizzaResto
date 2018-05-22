@@ -1,0 +1,4 @@
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaRestoCashier\PizzaRestoCashier\bin\PizzaRestoCashier.dll
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaRestoCashier\PizzaRestoCashier\bin\PizzaRestoCashier.pdb
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaRestoCashier\PizzaRestoCashier\obj\Debug\PizzaRestoCashier.dll
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaRestoCashier\PizzaRestoCashier\obj\Debug\PizzaRestoCashier.pdb

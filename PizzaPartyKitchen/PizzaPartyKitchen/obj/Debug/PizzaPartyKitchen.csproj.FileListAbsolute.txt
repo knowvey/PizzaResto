@@ -1,0 +1,5 @@
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaPartyKitchen\PizzaPartyKitchen\obj\Debug\PizzaPartyKitchen.csprojResolveAssemblyReference.cache
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaPartyKitchen\PizzaPartyKitchen\bin\PizzaPartyKitchen.dll
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaPartyKitchen\PizzaPartyKitchen\bin\PizzaPartyKitchen.pdb
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaPartyKitchen\PizzaPartyKitchen\obj\Debug\PizzaPartyKitchen.dll
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaPartyKitchen\PizzaPartyKitchen\obj\Debug\PizzaPartyKitchen.pdb

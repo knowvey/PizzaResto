@@ -1,0 +1,8 @@
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaPartyWCF\PizzaPartyWCF\bin\Debug\PizzaPartyWCF.dll.config
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaPartyWCF\PizzaPartyWCF\bin\Debug\PizzaPartyWCF.dll
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaPartyWCF\PizzaPartyWCF\bin\Debug\PizzaPartyWCF.pdb
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaPartyWCF\PizzaPartyWCF\bin\Debug\EntityFramework.dll
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaPartyWCF\PizzaPartyWCF\bin\Debug\EntityFramework.xml
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaPartyWCF\PizzaPartyWCF\obj\Debug\PizzaPartyWCF.dll
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaPartyWCF\PizzaPartyWCF\obj\Debug\PizzaPartyWCF.pdb
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaPartyWCF\PizzaPartyWCF\obj\Debug\PizzaPartyWCF.csprojResolveAssemblyReference.cache

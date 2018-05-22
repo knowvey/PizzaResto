@@ -1,0 +1,4 @@
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaPartyKitchen\PizzaPartyKitchen\bin\PizzaPartyKitchen.dll
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaPartyKitchen\PizzaPartyKitchen\bin\PizzaPartyKitchen.pdb
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaPartyKitchen\PizzaPartyKitchen\obj\Release\PizzaPartyKitchen.dll
+C:\Users\Novy John Albancia\Documents\Visual Studio 2012\Projects\PizzaPartyKitchen\PizzaPartyKitchen\obj\Release\PizzaPartyKitchen.pdb

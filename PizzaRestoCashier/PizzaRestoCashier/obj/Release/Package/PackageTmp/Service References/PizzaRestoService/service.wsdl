@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="PizzaResto" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/PizzaPartyWCF.Models" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPizzaResto_AddCashierTransaction_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddCashierTransaction" />
+  </wsdl:message>
+  <wsdl:message name="IPizzaResto_AddCashierTransaction_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddCashierTransactionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPizzaResto_GetItemList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetItemList" />
+  </wsdl:message>
+  <wsdl:message name="IPizzaResto_GetItemList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetItemListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPizzaResto_AddOrder_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddOrder" />
+  </wsdl:message>
+  <wsdl:message name="IPizzaResto_AddOrder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPizzaResto_GetOrderList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOrderList" />
+  </wsdl:message>
+  <wsdl:message name="IPizzaResto_GetOrderList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOrderListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPizzaResto_AddKitchenOrder_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddKitchenOrder" />
+  </wsdl:message>
+  <wsdl:message name="IPizzaResto_AddKitchenOrder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddKitchenOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPizzaResto_SetOrderComplete_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetOrderComplete" />
+  </wsdl:message>
+  <wsdl:message name="IPizzaResto_SetOrderComplete_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetOrderCompleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPizzaResto_GetItem_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetItem" />
+  </wsdl:message>
+  <wsdl:message name="IPizzaResto_GetItem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetItemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPizzaResto_GetKitchenOrders_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetKitchenOrders" />
+  </wsdl:message>
+  <wsdl:message name="IPizzaResto_GetKitchenOrders_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetKitchenOrdersResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPizzaResto">
+    <wsdl:operation name="AddCashierTransaction">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPizzaResto/AddCashierTransaction" message="tns:IPizzaResto_AddCashierTransaction_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPizzaResto/AddCashierTransactionResponse" message="tns:IPizzaResto_AddCashierTransaction_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPizzaResto/GetItemList" message="tns:IPizzaResto_GetItemList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPizzaResto/GetItemListResponse" message="tns:IPizzaResto_GetItemList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddOrder">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPizzaResto/AddOrder" message="tns:IPizzaResto_AddOrder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPizzaResto/AddOrderResponse" message="tns:IPizzaResto_AddOrder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPizzaResto/GetOrderList" message="tns:IPizzaResto_GetOrderList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPizzaResto/GetOrderListResponse" message="tns:IPizzaResto_GetOrderList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddKitchenOrder">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPizzaResto/AddKitchenOrder" message="tns:IPizzaResto_AddKitchenOrder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPizzaResto/AddKitchenOrderResponse" message="tns:IPizzaResto_AddKitchenOrder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetOrderComplete">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPizzaResto/SetOrderComplete" message="tns:IPizzaResto_SetOrderComplete_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPizzaResto/SetOrderCompleteResponse" message="tns:IPizzaResto_SetOrderComplete_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPizzaResto/GetItem" message="tns:IPizzaResto_GetItem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPizzaResto/GetItemResponse" message="tns:IPizzaResto_GetItem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetKitchenOrders">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPizzaResto/GetKitchenOrders" message="tns:IPizzaResto_GetKitchenOrders_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPizzaResto/GetKitchenOrdersResponse" message="tns:IPizzaResto_GetKitchenOrders_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IPizzaResto" type="tns:IPizzaResto">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddCashierTransaction">
+      <soap:operation soapAction="http://tempuri.org/IPizzaResto/AddCashierTransaction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemList">
+      <soap:operation soapAction="http://tempuri.org/IPizzaResto/GetItemList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddOrder">
+      <soap:operation soapAction="http://tempuri.org/IPizzaResto/AddOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderList">
+      <soap:operation soapAction="http://tempuri.org/IPizzaResto/GetOrderList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddKitchenOrder">
+      <soap:operation soapAction="http://tempuri.org/IPizzaResto/AddKitchenOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetOrderComplete">
+      <soap:operation soapAction="http://tempuri.org/IPizzaResto/SetOrderComplete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItem">
+      <soap:operation soapAction="http://tempuri.org/IPizzaResto/GetItem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetKitchenOrders">
+      <soap:operation soapAction="http://tempuri.org/IPizzaResto/GetKitchenOrders" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PizzaResto">
+    <wsdl:port name="BasicHttpBinding_IPizzaResto" binding="tns:BasicHttpBinding_IPizzaResto">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/PizzaPartyWCF/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

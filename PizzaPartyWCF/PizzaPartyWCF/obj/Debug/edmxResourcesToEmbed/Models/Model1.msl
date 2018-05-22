@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="pizzashopModelStoreContainer" CdmEntityContainer="pizzashopEntities">
+    <EntitySetMapping Name="cashiers">
+      <EntityTypeMapping TypeName="pizzashopModel.cashier">
+        <MappingFragment StoreEntitySet="cashier">
+          <ScalarProperty Name="orderNo" ColumnName="orderNo" />
+          <ScalarProperty Name="cashierName" ColumnName="cashierName" />
+          <ScalarProperty Name="custName" ColumnName="custName" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="cash" ColumnName="cash" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="itemlists">
+      <EntityTypeMapping TypeName="pizzashopModel.itemlist">
+        <MappingFragment StoreEntitySet="itemlist">
+          <ScalarProperty Name="itemID" ColumnName="itemID" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="price" ColumnName="price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kitchens">
+      <EntityTypeMapping TypeName="pizzashopModel.kitchen">
+        <MappingFragment StoreEntitySet="kitchen">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="orderNo" ColumnName="orderNo" />
+          <ScalarProperty Name="isCompleted" ColumnName="isCompleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="orderlists">
+      <EntityTypeMapping TypeName="pizzashopModel.orderlist">
+        <MappingFragment StoreEntitySet="orderlist">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="itemID" ColumnName="itemID" />
+          <ScalarProperty Name="qty" ColumnName="qty" />
+          <ScalarProperty Name="orderNo" ColumnName="orderNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

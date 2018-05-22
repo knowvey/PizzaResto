@@ -1,0 +1,106 @@
+﻿body {    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.containter {
+    padding: 0;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.header {        
+    text-align: center;
+    border: 1px solid black;
+    border-top-width: 2px;
+    border-left-width: 2px;    
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+.itemListContainer {
+    width: 100%;
+    height: 520px;
+    border: 1px solid black;
+    border-top-width: 2px;
+}
+
+.itemListContent {
+    height: 517px;
+    overflow: auto;
+}
+
+.itemBtn {
+    height: 150px;
+}
+
+.itemCounter {
+    height: 350px;    
+    border: 1px solid black;    
+}
+
+.itemGDVContent {
+    overflow: auto;
+    height: 348px;
+    border-style: none;
+}
+
+.itemCounterGDV {
+    width: 100%;    
+}
+
+.paddingGDV {
+    padding-left: 15px;
+}
+
+.counterBtn {
+    height: 60px;
+    width: 100%;
+    font-size: 25px;
+}
+
+.colBtns {
+    border: 1px solid black;   
+    border-left-width: 2px;
+    height: 349px; 
+}
+
+.totalBar {
+    padding: 0 10px;
+    border: 1px solid black;    
+    border-right-width: 2px;   
+}
+
+.totalLbl {
+    float: right;
+}
+
+.cashChange {
+    padding-left: 15px;
+}
+
+.cashierInfo {
+    border: 1px solid black;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    padding: 0 15px;
+}
+
+.statusBar {
+    border: 1px solid black;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    padding: 0 15px;
+    padding-top: 5px;
+    height: 54px;
+}
+
+.newCust {
+    float: right;    
+    font-size: 15px;
+}
